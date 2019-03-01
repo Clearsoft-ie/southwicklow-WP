@@ -13,66 +13,66 @@
  */
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>South Wicklow Drama Festival | Kilrush Drama Group</title>
-    <link href="assets/images/favicon.ico" rel="shortcut icon" />
-    <meta name="description" content="" />
-    <meta name="Author" content="ClearSoft" />
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>South Wicklow Drama Festival | Kilrush Drama Group</title>
+        <link href="assets/images/favicon.ico" rel="shortcut icon" />
+        <meta name="description" content="" />
+        <meta name="Author" content="ClearSoft" />
 
-    <!-- mobile settings -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-    <!-- WEB FONTS : use %7C instead of | (pipe) -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
-    <!-- CORE CSS -->
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- CORE CSS -->
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-    <!-- REVOLUTION SLIDER -->
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+        <!-- REVOLUTION SLIDER -->
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
 
-    <!-- THEME CSS -->
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/css/essentials.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/css/layout.css" rel="stylesheet" type="text/css" />
+        <!-- THEME CSS -->
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/css/essentials.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/css/layout.css" rel="stylesheet" type="text/css" />
 
-    <!-- PAGE LEVEL SCRIPTS -->
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/css/header-1.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo get_template_directory_uri() ;?>/assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+        <!-- PAGE LEVEL SCRIPTS -->
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/css/header-1.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_template_directory_uri() ;?>/assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
 
-    <?php wp_head(); ?>
-</head>
+        <?php wp_head(); ?>
+    </head>
 
-<!--
-    AVAILABLE BODY CLASSES:
+    <!--
+        AVAILABLE BODY CLASSES:
 
-    smoothscroll 			= create a browser smooth scroll
-    enable-animation		= enable WOW animations
+        smoothscroll 			= create a browser smooth scroll
+        enable-animation		= enable WOW animations
 
-    bg-grey					= grey background
-    grain-grey				= grey grain background
-    grain-blue				= blue grain background
-    grain-green				= green grain background
-    grain-blue				= blue grain background
-    grain-orange			= orange grain background
-    grain-yellow			= yellow grain background
+        bg-grey					= grey background
+        grain-grey				= grey grain background
+        grain-blue				= blue grain background
+        grain-green				= green grain background
+        grain-blue				= blue grain background
+        grain-orange			= orange grain background
+        grain-yellow			= yellow grain background
 
-    boxed 					= boxed layout
-    pattern1 ... patern11	= pattern background
-    menu-vertical-hide		= hidden, open on click
+        boxed 					= boxed layout
+        pattern1 ... patern11	= pattern background
+        menu-vertical-hide		= hidden, open on click
 
-    BACKGROUND IMAGE [together with .boxed class]
-    data-background="assets/images/_smarty/boxed_background/1.jpg"
--->
+        BACKGROUND IMAGE [together with .boxed class]
+        data-background="assets/images/_smarty/boxed_background/1.jpg"
+    -->
 <body class="smoothscroll enable-animation">
 
 
 
-<!-- wrapper -->
+    <!-- wrapper -->
 <div id="wrapper">
 
 
@@ -112,7 +112,29 @@
                 <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
+                <!-- SOCIAL -->
+                <ul class="float-right nav nav-pills nav-social nav-second-main hidden-md-down">
 
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" class="social-instagram text-center text-black" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Instragram">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/southwicklowdf" target="_blank" class="social-twitter text-center text-black" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/swdfcarnew/" target="_blank" class="social-facebook text-center text-black" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- /SOCIAL -->
                 <!-- BUTTONS -->
                 <ul class="float-right nav nav-pills nav-second-main">
 
@@ -188,3 +210,8 @@
         <!-- /Top Nav -->
 
     </div>
+
+<?php if ( is_front_page()) : ?>
+<?php else: ?>
+    <div class=container>
+<?php endif; ?>
