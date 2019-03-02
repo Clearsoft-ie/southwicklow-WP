@@ -114,13 +114,6 @@
                 </button>
                 <!-- SOCIAL -->
                 <ul class="float-right nav nav-pills nav-social nav-second-main hidden-md-down">
-
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank" class="social-instagram text-center text-black" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Instragram">
-                            <i class="icon-instagram"></i>
-                        </a>
-                    </li>
-
                     <li>
                         <a href="https://twitter.com/southwicklowdf" target="_blank" class="social-twitter text-center text-black" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter">
                             <i class="icon-twitter"></i>
